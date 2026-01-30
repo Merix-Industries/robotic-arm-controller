@@ -1,11 +1,16 @@
-# Simple Robotic Arm controller
+Simple Robotic Arm Controller
 
-This was the first PCB design we created: a small circuit board featuring two potentiometers and a button for controlling a simple robotic arm of our own construction.
+This project represents our initial foray into PCB design. It features a compact control board equipped with two potentiometers and a tactile button, specifically engineered to interface with a custom-built robotic arm.
 Features
-Two potentiometers for precise servo control
-Button for gripper operation
-ATmega328P microcontroller
-Custom PCB designed in KiCad
+
+    Dual Potentiometers: Enables high-precision servo control for smooth movement.
+
+    Dedicated Button: Integrated trigger for seamless gripper operation.
+
+    ATmega328P Microcontroller: Utilizes the robust AVR architecture for reliable processing.
+
+    Custom PCB Design: Professionally routed and developed using KiCad.
+
 Technical Details
 
-The board uses an ATmega328P microcontroller programmed via Arduino IDE. The two potentiometers control the arm's rotation and reach, while the button operates the gripper mechanism.
+The core of the system is the ATmega328P microcontroller, programmed via the Arduino IDE. The firmware translates analog signals from the potentiometers into precise PWM outputs to govern the arm's rotation and reach, while the digital input from the button toggles the gripper mechanism.
