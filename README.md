@@ -19,8 +19,8 @@ The core of the system is the **ATmega328P** microcontroller, programmed via the
 ### Hardware Configuration
 | Component | Primary Function |
 | :--- | :--- |
-| **Potentiometer 1** | Base Rotation Control |
-| **Potentiometer 2** | Reach / Extension Control |
+| **Potentiometer 1** | Reach Control |
+| **Potentiometer 2** | Extension Control |
 | **Tactile Button** | Gripper Actuation (Open/Close) |
 | **Microcontroller** | ATmega328P (Standalone configuration) |
 
